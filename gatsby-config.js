@@ -37,7 +37,7 @@ module.exports = {
       
       fieldName: "wpcontent",
       
-      url: "http://artist-agency.local/graphql",
+      url: "http://herssens-agency.local/graphql",
       
       },
       
