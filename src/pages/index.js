@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import {useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
@@ -95,9 +95,9 @@ const IndexPage = () => {
           <div className="artist-items">
             {homePageFeaturedArtists.map(({ artist, slug }) => (
               <Artist to={`/${slug}`}>
-                <Image
+                  <Image
                   fluid={artist.profile.imageFile.childImageSharp.fluid}
-                  altText={artist.profile.altText}
+                  alt={artist.profile.altText}
                 />
                 <div className="artist-info">
                   <p>
