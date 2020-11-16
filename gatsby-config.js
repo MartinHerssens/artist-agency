@@ -29,15 +29,15 @@ module.exports = {
     },
     {
 
-      resolve: "gatsby-source-graphql",
+      resolve: `gatsby-source-graphql`,
       
       options: {
       
-      typeName: "WPGraphql",
+      typeName: `WPGraphql`,
       
-      fieldName: "wpcontent",
+      fieldName: `wpcontent`,
       
-      url: "http://herssens-agency.local/graphql",
+      url: `http://herssens-agency.local/graphql`,
       
       },
       
