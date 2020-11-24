@@ -57,7 +57,7 @@ const ArtistTemplate = ({
               <strong>Height:</strong> {artist.height}
             </p>
             <p className="info">
-              <strong>Shoe size:</strong> {artist.shoeSize}
+              <strong>Shoe size:</strong> {artist.shoesize}
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export const pageQuery = graphql`
           lastName
           locale
           phone
-          shoeSize
+          shoesize
           profile {
             sourceUrl
             imageFile {
